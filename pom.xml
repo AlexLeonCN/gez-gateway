@@ -14,22 +14,10 @@
 	<description>gateway project for gezTally</description>
 
 	<dependencies>
-
-
 		<!-- gateway -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-gateway</artifactId>
-			<!-- <exclusions>
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-web</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-webflux</artifactId>
-				</exclusion>
-			</exclusions> -->
 		</dependency>
 
 		<!--eureka -->
@@ -37,8 +25,6 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-
-		<!-- config client -->
 
 		<!--boot junit test -->
 		<dependency>
